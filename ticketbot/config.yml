@@ -1,0 +1,44 @@
+Ticket-Bot:
+  Token: ""
+  Category-ID: ""
+  Mention-Role-ID: ""
+  Backup-Guild-ID: ""
+  Logs-Channel-ID: ""
+
+Buttons:
+  close-ticket: "Close 🗑️"
+  claim-ticket: "Claim 📌"
+  create-ticket: "Create 📩"
+  
+   
+  # You can use these thing just in Ticket-Embed [Tilte/Description]
+  # %user_name% to get user name
+  # %user_tag% to get user as Tag like Sanhak#5335
+  # %user_id% to get User ID 
+  # %user_as_mention% to mention the user
+  # %user_avatar% to get user avatar link
+  # %mention_role% to mention staff !
+  
+Embeds:
+  Create-Embed: 
+    Title: "Support | Create Ticket From here !"
+    Description: "You can create ticket by clicking on buttons down ! \n Made with <3 by Sanhak"
+    Color: Dark_gray
+  Ticket-Embed: 
+    Title: "%user_name% - Ticket"
+    Description: "Please wait a few of time , %mention_role% come to Help %user_as_mention% \n Made With Love By Sanhak"
+    Color: RED
+    
+ 
+Messages:
+  Not-Found-Category: "Please check on Category_ID that appear to be invalid or not found"
+  Create-Ticket: "The ticket has been created successfully with name %s"
+  Black-List: "Hey %blm% you are inside black list ! You can't use tickets !"
+  No-Permissions: "Hey %m% , You do not have enough permissions to use this !"
+  
+
+Black-List:
+  - "1003628195511270467" 
+  
+Staff-List:
+  - "1003628195511271467"  
